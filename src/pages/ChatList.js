@@ -11,6 +11,7 @@ const ChatList = () => {
 const ChatListWrapper = styled.div`
   width: 18%;
   height: 100%;
+  padding: 10px;
   margin-right: 10px;
   border: 1px solid gray;
   border-radius: 8px;

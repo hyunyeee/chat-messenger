@@ -1,21 +1,15 @@
 import styled from "styled-components";
-import ChatBox from "../components/ChatBox";
 import ChatInfo from "../components/ChatInfo";
-import Date from "../components/Date";
 import InputMsg from "../components/InputMsg";
+import ChatMessages from "../components/ChatMessages";
+import ChattingData from "../assets/ChattingData.json"
 
 const Chatting = () => {
     return (
             <ChattingWrapper>
-                <ChatInfo />
+                <ChatInfo chatroomname={ChattingData.chatroomName}/>
                 <ChattingContainer>
-                    <Date />
-                    {/*todo 나 / 상대 구분, 위치 구분할 props 넘기기*/}
-                    <ChatBox isMine={true}/>
-                    <ChatBox isMine={false}/>
-                    <ChatBox isMine={true}/>
-                    <ChatBox isMine={true}/>
-                    <ChatBox isMine={false}/>
+                    <ChatMessages data={ChattingData.data} />
                 </ChattingContainer>
                 <InputMsg />
             </ChattingWrapper>
@@ -31,7 +25,6 @@ const ChattingWrapper = styled.div`
   display: flex;
   flex-direction: column;
 `
-
 const ChattingContainer = styled.div`
   padding: 15px;
   display: flex;

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-const Date = () => {
+const DateBox = ({date}) => {
     return (
         <DateContainer>
-            7 . 11 (화)
+            {date}
         </DateContainer>
     );
 };
@@ -16,4 +16,4 @@ const DateContainer = styled.div`
   background-color: white;
 `
 
-export default Date;
+export default DateBox;

@@ -1,23 +1,20 @@
 import styled from "styled-components";
 import MsgBox from "./LeftMsgBox";
 
-const ChatBox = ({isMine}) => {
+const ChatBox = ({isMine, profileImage, username, time, msg}) => {
     return (
         <ChatBoxWrapper isMine={isMine}>
-            <div>프로필사진</div>
-            <div>유저이름</div>
-            <div>시간</div>
-            <MsgBox isMine={isMine}/>
-            <MsgBox isMine={isMine}/>
-            <MsgBox isMine={isMine}/>
+            <div>{profileImage}</div>
+            <div>{username}</div>
+            <div>{time}</div>
+            <MsgBox isMine={isMine} msg={msg}/>
         </ChatBoxWrapper>
     );
 };
 
 const ChatBoxWrapper = styled.div`
-  border: 1px solid gray;
-  background-color: ${(props)=>props.isMine ? `skyblue` : `pink`};
-  align-self: ${(props)=>props.isMine ? `start` : `end`};
+  background-color: ${(props)=>props.isMine ? `pink` : `skyblue`};
+  align-self: ${(props)=>props.isMine ? `end` : `start`};
 `
 
 export default ChatBox;

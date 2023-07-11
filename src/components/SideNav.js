@@ -10,6 +10,7 @@ const SideNav = () => {
 
 const NavWrapper = styled.div`
   width: 7%;
+  padding: 10px;
   height: 100%;
   margin-right: 10px;
   border: 1px solid gray;

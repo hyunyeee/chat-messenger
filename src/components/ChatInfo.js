@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const ChatInfo = () => {
+const ChatInfo = ({chatroomname}) => {
     return (
         <ChatInfoWrapper>
+            - {chatroomname} <br />
             - 채팅방 사진 <br />
-            - 채팅방 이름 <br />
             - 채팅방 인원들 프로필 사진 <br />
             - 아이콘 3개 <br />
         </ChatInfoWrapper>
