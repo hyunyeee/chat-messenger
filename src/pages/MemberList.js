@@ -3,7 +3,7 @@ import styled from "styled-components";
 const MemberList = () => {
     return (
         <MemberWrapper>
-
+            현 채팅방 유저 리스트
         </MemberWrapper>
     );
 };

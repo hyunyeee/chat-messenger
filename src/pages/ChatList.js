@@ -3,7 +3,7 @@ import styled from "styled-components";
 const ChatList = () => {
     return (
         <ChatListWrapper>
-
+            채팅방 리스트
         </ChatListWrapper>
     );
 };
