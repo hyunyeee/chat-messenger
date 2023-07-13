@@ -1,0 +1,74 @@
+{
+  "chatroomName": "핑핑 잉잉 멍멍이 채팅방",
+  "data": {
+    "chatroomId": "abc123",
+    "chatroomName": "핑핑이의 채팅방",
+    "participants": [
+      {
+        "userId": "user1",
+        "username": "핑핑이",
+        "profileImage": "핑핑이사진"
+      },
+      {
+        "userId": "user2",
+        "username": "삐삐",
+        "profileImage": "잉잉이사진"
+      },
+      {
+        "userId": "user3",
+        "username": "멍멍이",
+        "profileImage": "멍멍이사진"
+      }
+    ],
+    "messages": [
+      {
+        "messageId": "msg1",
+        "senderId": "user1",
+        "content": "안녕하세요!",
+        "timestamp": "2023-07-10T10:00:00Z"
+      },
+      {
+        "messageId": "msg2",
+        "senderId": "user2",
+        "content": "안녕하세요! 반갑습니다.",
+        "timestamp": "2023-07-10T10:05:00Z"
+      },
+      {
+        "messageId": "msg3",
+        "senderId": "user1",
+        "content": "네 삐삐!",
+        "timestamp": "2023-07-11T10:00:00Z"
+      },
+      {
+        "messageId": "msg4",
+        "senderId": "user1",
+        "content": "저는 핑핑 핑핑이 입니다~",
+        "timestamp": "2023-07-11T10:03:00Z"
+      },
+      {
+        "messageId": "msg5",
+        "senderId": "user2",
+        "content": "네 저는 삐삐요",
+        "timestamp": "2023-07-11T10:13:00Z"
+      },
+      {
+        "messageId": "msg6",
+        "senderId": "user3",
+        "content": "얼음",
+        "timestamp": "2023-07-11T10:15:00Z"
+      },
+      {
+        "messageId": "msg7",
+        "senderId": "user3",
+        "content": "영어로",
+        "timestamp": "2023-07-11T10:23:00Z"
+      },
+      {
+        "messageId": "msg8",
+        "senderId": "user3",
+        "content": "ice",
+        "timestamp": "2023-07-11T10:27:00Z"
+      }
+    ]
+  }
+}

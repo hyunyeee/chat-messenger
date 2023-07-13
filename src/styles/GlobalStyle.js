@@ -15,6 +15,8 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     input, textarea {
+      margin: 0;
+      padding: 0;
       -moz-user-select: auto;
       -webkit-user-select: auto;
       -ms-user-select: auto;
