@@ -3,13 +3,14 @@ import SideNav from "../components/SideNav";
 import ChatList from "./ChatList";
 import Chatting from "./Chatting";
 import MemberList from "./MemberList";
+import DATA from "../assets/ChattingData.json"
 
 const Main = () => {
     return (
         <MainPageWrapper>
             <SideNav />
             <ChatList />
-            <Chatting />
+            <Chatting data={DATA.data}/>
             <MemberList />
         </MainPageWrapper>
     );
