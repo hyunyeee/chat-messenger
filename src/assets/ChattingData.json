@@ -7,24 +7,24 @@
       {
         "userId": "user1",
         "username": "핑핑이",
-        "profileImage": "핑핑이사진"
+        "profileImage": "pingping.png"
       },
       {
         "userId": "user2",
         "username": "삐삐",
-        "profileImage": "잉잉이사진"
+        "profileImage": "bbibbi.png"
       },
       {
         "userId": "user3",
         "username": "멍멍이",
-        "profileImage": "멍멍이사진"
+        "profileImage": "bowwow.png"
       }
     ],
     "messages": [
       {
         "messageId": "msg1",
         "senderId": "user1",
-        "content": "안녕하세요!",
+        "content": "행운과 긍정이 가득한 아름다운 하루가 되길 바랍니다. 오늘은 새로운 기회와 성취의 순간을 만나며 행운이 당신을 따르기를 기원합니다. 어떤 도전이 있더라도 자신의 능력과 용기를 믿고 앞으로 나아가세요. 긍정적인 마음과 열정으로 일상을 즐기고, 주변 사람들과 따뜻한 소통을 나누며 행복을 나누기를 바랍니다. 모든 일이 순조롭게 흘러가고, 웃음과 기쁨으로 가득한 순간들이 당신을 감싸기를 기대합니다. 자신을 사랑하고 믿음으로 가득한 하루를 보내며, 행운의 여정이 함께하는 하루가 되길 소망합니다. 좋은 하루 되세요!",
         "timestamp": "2023-07-10T10:00:00Z"
       },
       {
