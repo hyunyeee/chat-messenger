@@ -2,7 +2,6 @@ import styled from "styled-components";
 const InputMsg = () => {
     return (
         <InputMsgContainer>
-            {/*todo 아이콘 3개*/}
             <ChatInput placeholder="Type a message" />
             <SendBtn />
         </InputMsgContainer>
@@ -25,10 +24,10 @@ const ChatInput = styled.input`
   border-radius: 8px;
   height: 50px;
 `
-const SendBtn = styled.div`
+const SendBtn = styled.button`
   width: 50px;
   height: 50px;
-  background-color: dodgerblue;
+  background-color: #82d3ff;
   border-radius: 8px;
 `
 

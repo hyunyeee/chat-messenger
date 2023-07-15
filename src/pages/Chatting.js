@@ -2,19 +2,19 @@ import styled from "styled-components";
 import ChatInfo from "../components/ChatInfo";
 import InputMsg from "../components/InputMsg";
 import ChatMessages from "../components/ChatMessages";
-import ChattingData from "../assets/ChattingData.json"
 
-const Chatting = () => {
+const Chatting = ({data}) => {
     return (
-            <ChattingWrapper>
-                <ChatInfo chatroomname={ChattingData.chatroomName}/>
+            <ChattingWrapper data={data}>
+                <ChatInfo data={data}/>
                 <ChattingContainer>
-                    <ChatMessages data={ChattingData.data} />
+                    <ChatMessages data={data} />
                 </ChattingContainer>
                 <InputMsg />
             </ChattingWrapper>
     );
 };
+
 const ChattingWrapper = styled.div`
   width: 50%;
   height: 100%;
@@ -26,6 +26,7 @@ const ChattingWrapper = styled.div`
   flex-direction: column;
 `
 const ChattingContainer = styled.div`
+  margin-top: 10px;
   padding: 15px;
   display: flex;
   flex-direction: column;
