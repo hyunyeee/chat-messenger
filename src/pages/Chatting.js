@@ -31,7 +31,7 @@ const ChattingContainer = styled.div`
   display: flex;
   flex-direction: column;
   overflow: scroll;
-  background-color: #f6f6f6;
+  background-color: ${({theme}) => theme.colors.LIGHT_GRAY};
   border-radius: 8px;
 `
 

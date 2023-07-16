@@ -6,13 +6,13 @@ const ChatInfo = ({data}) => {
     return (
         <ChatInfoWrapper>
             <ChatRoomTitle>{chatroomName} <br/></ChatRoomTitle>
-            <Imgs>
+            <ImgContainer>
                 {participants.map(
                     ((u) =>
                         <UsersImg src={require(`../assets/${u.profileImage}`)} />
                     )
-                )};
-            </Imgs>
+                )}
+            </ImgContainer>
         </ChatInfoWrapper>
     );
 };
@@ -25,8 +25,8 @@ const ChatRoomTitle = styled.p`
   font-size: 25px;
   padding: 10px;
 `
-const Imgs = styled.div`
-  padding-left: 20px;
+const ImgContainer = styled.div`
+  margin-left: 20px;
 `
 const UsersImg = styled.img`
   width: 50px;

@@ -14,6 +14,8 @@ const MsgContainer = styled.div`
   border-radius: ${(props) => props.isMine ? `8px 0 8px 8px` : `0 8px 8px 8px`};
   padding: 10px;
   background-color: ${(props) => props.isMine ? `#82d3ff` : `white`};
+  background-color: ${({isMine, theme}) => isMine ? theme.colors.BLUE : `white`};
+
   color: ${(props) => props.isMine ? `white` : `black`};
   letter-spacing: 1px;
   line-height: 1.5;
